@@ -1,0 +1,120 @@
+body {
+    background: #fff;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-family: Impact, Arial, sans-serif;
+    color: #ef5da2;
+    font-size: 36px;
+}
+
+.info {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+
+.info-title {
+    align-self: center;
+}
+
+.window {
+    width: 500px;
+    margin: 0 auto;
+    border: 1px solid gray;
+    background: #d6d6ce;
+    position: relative;
+    padding: 1px;
+    box-shadow: 2px 2px 2px #424242;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+}
+
+.window-content iframe {
+    height: 400px;
+}
+
+.window-top {
+    position: relative;
+    background: #CECECE;
+    font-family: "Interface", sans-serif, serif, monospace;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5px;
+    background: #08216b;
+    background: linear-gradient(to right, #08216b, #a5c6ef);
+    height: 35px;
+    color: #fff;
+}
+
+.window-button {
+    margin: 0 2px;
+    width: 25px;
+    height: 25px;
+    color: black;
+    font-weight: 700;
+    background: #d6d6ce;
+    font-size: 20px;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid #848484;
+    border-bottom: 1px solid #848484;
+    box-shadow: 1px 1px 1px #424242;
+    text-align: center;
+    line-height: 25px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list {
+    margin: 0;
+    padding: 5px 0;
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    padding: 0 5px;
+    cursor: pointer;
+}
+
+.window-content-container {
+    width: 100%;
+    overflow: hidden;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.window-content {
+    width: 100%;
+    height: 410px;
+    padding: 5px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    word-wrap: word-break;
+    word-break: break-all;
+    background: #fff;
+    border-bottom: 3px solid #f4f4f4;
+    border-right: 3px solid #f4f4f4;
+    border-left: 3px solid #848484;
+    border-top: 3px solid #848484;
+}
+
+.window-cam {
+    z-index: 100;
+    width: 585px;
+}
+
+table {
+    font-size: 10px;
+}

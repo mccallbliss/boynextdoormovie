@@ -22,7 +22,7 @@ h1 {
 }
 
 .window {
-    width: 500px;
+    width: 300px;
     margin: 0 auto;
     border: 1px solid gray;
     background: #d6d6ce;
@@ -36,7 +36,8 @@ h1 {
 }
 
 .window-content iframe {
-    height: 400px;
+    height: 280px;
+    width: 375px;
 }
 
 .window-top {
@@ -75,16 +76,8 @@ h1 {
     z-index: -1;
 }
 
-.doodles img {
-    width: 300px;
-}
-
-.doodles-left {
-    left: 10%;
-}
-
-.doodles-right {
-    right: 10%;
+.doodles {
+    display: none;
 }
 
 .nav {
@@ -114,7 +107,7 @@ h1 {
 
 .window-content {
     width: 100%;
-    height: 410px;
+    height: 300px;
     padding: 5px;
     box-sizing: border-box;
     overflow-y: scroll;
@@ -129,9 +122,67 @@ h1 {
 
 .window-cam {
     z-index: 100;
-    width: 585px;
+    width: 400px;
 }
 
 table {
     font-size: 10px;
+    width: 400px;
+}
+
+.credits {
+    width: 400px;
+}
+
+@media screen and (min-width: 500px) {
+    .window {
+        width: 500px;
+    }
+
+    .window-content iframe {
+        height: 400px;
+        width: 100%;
+    }
+
+    .window-content {
+        width: 100%;
+        height: 410px;
+    }
+
+    .window-cam {
+        width: 585px;
+    }
+    table {
+        width: 500px;
+    }
+
+    .credits {
+        width: 500px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+
+    .doodles {
+        display: block;
+    }
+
+    .doodles img {
+        width: 300px;
+    }
+
+    .doodles-left {
+        left: 10%;
+    }
+
+    .doodles-right {
+        right: 10%;
+    }
+    table {
+        width: 785px;
+    }
+
+    .credits {
+        width: 785px;
+    }
 }

@@ -143,7 +143,7 @@ h1 {
 }
 
 table.credits-info {
-    font-size: 10px;
+    font-size: 8px;
     width: 400px;
 }
 
@@ -180,6 +180,10 @@ table.credits-info {
 
     .credits {
         width: 500px;
+    }
+
+    table.credits-info {
+        font-size: 10px;
     }
 }
 

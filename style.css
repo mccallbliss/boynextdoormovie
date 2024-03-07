@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/segoe-ui-4');
+
 body {
     background: #fff;
     font-family: Arial, sans-serif;
@@ -23,6 +25,7 @@ h1 {
 
 .window {
     width: 300px;
+    font-family: 'Segoe UI', sans-serif;
     margin: 0 auto;
     border: 1px solid gray;
     background: #d6d6ce;
@@ -69,6 +72,20 @@ h1 {
     box-shadow: 1px 1px 1px #424242;
     text-align: center;
     line-height: 25px;
+}
+
+.rating {
+    width: 150px;
+    height: 44px;
+}
+
+.century {
+    width: 77px;
+    height: 38px;
+}
+
+.davvn {
+    display: none;
 }
 
 .doodles {
@@ -125,7 +142,7 @@ h1 {
     width: 400px;
 }
 
-table {
+table.credits-info {
     font-size: 10px;
     width: 400px;
 }
@@ -137,6 +154,10 @@ table {
 @media screen and (min-width: 500px) {
     .window {
         width: 500px;
+    }
+
+    .davvn {
+        display: block;
     }
 
     .window-content iframe {
@@ -152,6 +173,7 @@ table {
     .window-cam {
         width: 585px;
     }
+
     table {
         width: 500px;
     }
@@ -178,6 +200,7 @@ table {
     .doodles-right {
         right: 10%;
     }
+
     table {
         width: 785px;
     }

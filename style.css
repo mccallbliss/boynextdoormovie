@@ -143,6 +143,38 @@ h1 {
     width: 400px;
 }
 
+.action-items {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.action-button {
+    font-family: Impact, Arial, sans-serif;
+    border: 3px solid #ef5ea2;
+    padding: 10px;
+    color: #ef5ea2;
+    cursor: pointer;
+    text-decoration: none;
+    -moz-transition: all 0.25s ease-in;
+    /* WebKit */
+    -webkit-transition: all 0.25s ease-in;
+    /* Opera */
+    -o-transition: all 0.25s ease-in;
+    /* Standard */
+    transition: all 0.25s ease-in;
+}
+
+.action-button a {
+    cursor: pointer;
+}
+
+.action-button:hover {
+    color: white;
+    background-color: #ef5ea2;
+}
+
 table.credits-info {
     font-size: 6px;
     width: 400px;

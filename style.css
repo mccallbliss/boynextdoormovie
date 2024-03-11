@@ -175,6 +175,10 @@ h1 {
     background-color: #ef5ea2;
 }
 
+.contact-container {
+    display: none;
+}
+
 table.credits-info {
     font-size: 6px;
     width: 400px;

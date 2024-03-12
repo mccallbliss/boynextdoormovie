@@ -188,6 +188,10 @@ table.credits-info {
     width: 400px;
 }
 
+.review-container {
+    padding: 20px 100px;
+}
+
 @media screen and (min-width: 500px) {
     .window {
         width: 500px;
